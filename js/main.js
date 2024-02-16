@@ -69,7 +69,7 @@ $('#no').mousemove(function() {
         switchButton();
     if (n > 1) {
         moveButton();
-        if ($('#yes').css("width") < (390+'px')) {
+        if ($('#yes').css("width") < (400+'px')) {
             var width = (115 + 2*n) + 'px';
             var height = (50 + 1*n) + 'px';
             $('#yes').css("width", width);
